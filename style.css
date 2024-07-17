@@ -1,0 +1,49 @@
+body{
+    background-color: #001f3e;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: 450px;
+}
+#h1{
+    color: white;
+}
+.box{
+    width: 450px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 7px black solid;
+    border-radius: 30%;
+    margin: 20px;
+}
+button{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+#green-card{
+    background-color: green;
+}
+#red-card{
+    background-color: red;
+    
+}
+#blue-card{
+    background-color: blue;
+    
+}
+#yellow-card{
+    background-color: yellow;
+    
+}
+.crad-light{
+    box-shadow: -1px 12px 8px 9px grey, 0px -15px 13px 8px gray;
+} 
+.wrong-light{
+    background-color: rgba(255, 0, 0, 0.559);
+}
